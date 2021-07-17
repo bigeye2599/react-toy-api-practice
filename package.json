@@ -1,0 +1,17 @@
+{
+  "name": "react-toy-api-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bigeye2599/react-toy-api-practice.git",
+  "author": "bigeye2599 <bigeye2599@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start"
+  }
+}
